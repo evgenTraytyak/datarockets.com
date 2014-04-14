@@ -1,0 +1,19 @@
+.postslist {
+	width: $width-page;
+	margin: 40px auto 0;
+	font-size: 12px;
+
+	li {
+		list-style-position: inside;
+		}
+
+	a {
+		text-decoration: none;
+		border-bottom: 1px solid $color-link;
+		font-size: 14px;
+
+		&:hover {
+			border-bottom-color: $color-link-hover;
+			}
+		}
+	}

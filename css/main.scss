@@ -30,6 +30,8 @@ a {
         margin: 20px 0;
         font-size: 75px;
         line-height: $line-height;
+
+        a {text-decoration: none;}
         }
 
     h2.page-title {
@@ -86,34 +88,7 @@ section._half {
         }
     }
 
-.team {}
-
-    .teammates {
-        text-align: center;
-        font-size: 0;
-        line-height: 0;
-        }
-
-        .team-member {
-            margin: $margin-team-member/2 $margin-team-member/2;
-            display: inline-block;
-
-            img {
-                width: $width-team-member-img;
-                border-radius: $width-team-member-img;
-                display: block;
-                border: 3px solid #fff;
-                box-shadow: 0 0 5px rgba(#000, .5);
-                box-sizing: border-box;
-                }
-            }
-
-.works,
-.works .page-title {
-    text-align: right;
-    }
-
-.hireus,
-.hireus .page-title {
-    text-align: left;
-    }
+@import 'b_team';
+@import 'b_works';
+@import 'b_hireus';
+@import 'b_postslist';
